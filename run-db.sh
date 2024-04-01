@@ -1,0 +1,1 @@
+docker run -p 8081:8081 -p 10250-10255:10250-10255 -e AZURE_COSMOS_EMULATOR_ENABLE_MONGODB_ENDPOINT=4.0  -i --tty mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
